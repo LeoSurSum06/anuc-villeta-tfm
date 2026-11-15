@@ -1,0 +1,8 @@
+# Modelos de IA del asistente RAG y de la voz (pesados; solo para el prototipo completo)
+# El núcleo y las pruebas funcionan sin estos paquetes gracias a los respaldos de prueba.
+sentence-transformers>=3.0   # embeddings multilingual-E5 (rag/embeddings.py)
+chromadb>=0.5                # base vectorial con índice HNSW (rag/indice.py)
+transformers>=4.40           # verificador NLI multilingüe (rag/nli.py)
+torch>=2.2
+faster-whisper>=1.0          # reconocimiento de voz con Whisper (voz/stt.py)
+TTS>=0.22                    # síntesis VITS de Coqui (voz/tts.py)

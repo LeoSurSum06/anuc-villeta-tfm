@@ -1,0 +1,29 @@
+                                         Comprobación                                   Resultado
+                                  Balance de estratos                         300/300 poblaciones
+                    Reproducibilidad (huella SHA-256)                         300/300 poblaciones
+                     Identificabilidad (s, g <= 0,30)                         300/300 poblaciones
+Coherencia marginal (escenario base, máx. desviación)                                      0.0080
+                                        Plausibilidad Pendiente: requiere datos reales del piloto
+2100 ejecuciones; semillas por combinación: 50; violaciones de la máscara: 0
+
+Tabla 4.17 (mejor propuesta frente a la secuencia fija)
+ Escenario Mejor propuesta     Propuesta (IC 95 %) Secuencia fija (IC 95 %) Diferencia pareada p (Holm) delta de Cliff
+       E1        thompson 0.2760 [0.2753; 0.2767]  0.2701 [0.2691; 0.2711]            +0.0059 1.07e-14          +0.83
+       E2        thompson 0.2759 [0.2753; 0.2766]  0.2699 [0.2690; 0.2709]            +0.0060 1.07e-14          +0.87
+       E3        thompson 0.2063 [0.2057; 0.2069]  0.2001 [0.1993; 0.2010]            +0.0062 1.07e-14          +0.91
+       E4        thompson 0.2749 [0.2739; 0.2759]  0.2654 [0.2639; 0.2668]            +0.0096 1.07e-14          +0.87
+       E5        thompson 0.2766 [0.2759; 0.2772]  0.2704 [0.2694; 0.2714]            +0.0062 1.07e-14          +0.85
+       E6        thompson 0.2993 [0.2983; 0.3003]  0.2739 [0.2728; 0.2749]            +0.0254 1.07e-14          +1.00
+
+Tabla 4.18 (escenario base)
+        Política  Recompensa de evaluación (IQM)  Recompensa observable  Regret  Pasos hasta dominar C7 Perfiles con ≥ 80 % dominado  Error de calibración
+        oraculo                          0.2898                 0.3774     0.0                    23.8                         99 %                 0.104
+reglas_expertas                          0.2878                 0.3952     7.7                    35.2                         95 %                 0.035
+ secuencia_fija                          0.2704                 0.3140    17.1                    42.7                         70 %                 0.110
+      aleatoria                          0.2773                 0.3763    16.7                    30.9                         48 %                 0.099
+       thompson                          0.2760                 0.3746    17.4                    34.0                         36 %                 0.104
+         linucb                          0.2756                 0.3743    17.8                    36.8                         32 %                 0.105
+ epsilon_greedy                          0.2780                 0.3746    17.2                    40.2                         47 %                 0.103
+
+H1 RESPALDADA; cumple el criterio por escenario: {'E1': True, 'E2': True, 'E3': True, 'E4': True, 'E5': True, 'E6': True}
+Figura en experimentos/registros/figuras/dif_pareada.png

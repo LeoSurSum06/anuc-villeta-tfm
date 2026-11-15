@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Si usa este software, cítelo como se indica a continuación."
+title: "Sistema adaptativo con inteligencia artificial para el autocuidado y el turismo rural en la ANUC Villeta (código del Trabajo de Fin de Máster)"
+type: software
+authors:
+  - family-names: "Martínez Rodríguez"
+    given-names: "Fredy Leonardo"
+version: "1.0.0"
+date-released: "2026-11-15"
+license: MIT
+repository-code: "https://github.com/TU_USUARIO/anuc-villeta-tfm"
+keywords:
+  - bandidos contextuales
+  - seguimiento bayesiano del conocimiento
+  - autocuidado
+  - turismo rural
+  - recomendación adaptativa

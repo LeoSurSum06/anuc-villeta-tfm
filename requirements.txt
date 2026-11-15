@@ -1,0 +1,12 @@
+# Núcleo: motor adaptativo, simulador, rutas, análisis y pruebas
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+pytest>=8.0
+
+# API REST (api/main.py)
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+python-multipart>=0.0.9

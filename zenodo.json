@@ -1,0 +1,20 @@
+{
+  "title": "Sistema adaptativo con inteligencia artificial para el autocuidado y el turismo rural en la ANUC Villeta (código del Trabajo de Fin de Máster)",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Martínez Rodríguez, Fredy Leonardo",
+      "affiliation": "Universidad Internacional de La Rioja (UNIR)"
+    }
+  ],
+  "description": "Código, datos sintéticos y resultados de simulación del Trabajo de Fin de Máster en Inteligencia Artificial (UNIR): motor adaptativo (BKT y bandidos contextuales con máscara de seguridad), simulador, recomendador de rutas, asistente RAG y API. Todos los datos son sintéticos; no se recogieron datos de personas.",
+  "license": "MIT",
+  "keywords": [
+    "bandidos contextuales",
+    "BKT",
+    "autocuidado",
+    "turismo rural"
+  ],
+  "language": "spa",
+  "access_right": "open"
+}

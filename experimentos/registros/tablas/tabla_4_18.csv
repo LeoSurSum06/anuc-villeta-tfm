@@ -1,0 +1,8 @@
+Política,Recompensa de evaluación (IQM),Recompensa observable,Regret,Pasos hasta dominar C7,Perfiles con ≥ 80 % dominado,Error de calibración
+oraculo,0.2898,0.3774,0.0,23.8,99 %,0.104
+reglas_expertas,0.2878,0.3952,7.7,35.2,95 %,0.035
+secuencia_fija,0.2704,0.314,17.1,42.7,70 %,0.11
+aleatoria,0.2773,0.3763,16.7,30.9,48 %,0.099
+thompson,0.276,0.3746,17.4,34.0,36 %,0.104
+linucb,0.2756,0.3743,17.8,36.8,32 %,0.105
+epsilon_greedy,0.278,0.3746,17.2,40.2,47 %,0.103

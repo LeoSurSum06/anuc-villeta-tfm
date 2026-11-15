@@ -1,0 +1,6 @@
+Comprobación,Resultado
+Balance de estratos,300/300 poblaciones
+Reproducibilidad (huella SHA-256),300/300 poblaciones
+"Identificabilidad (s, g <= 0,30)",300/300 poblaciones
+"Coherencia marginal (escenario base, máx. desviación)",0.0080
+Plausibilidad,Pendiente: requiere datos reales del piloto
